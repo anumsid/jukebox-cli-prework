@@ -77,4 +77,5 @@ def run(my_songs)
         response = gets.chomp
     end
   end
+  exit_jukebox
 end

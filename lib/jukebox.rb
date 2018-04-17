@@ -60,7 +60,9 @@ def run(my_songs)
 
   while response != "exit"
     case response
-    when ""
+      when "help"
+        help
+      puts
     end
-  end    
+  end
 end

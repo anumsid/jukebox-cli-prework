@@ -55,4 +55,6 @@ end
 
 def run(my_songs)
   help
+  puts "Please enter a command:"
+  response = gets.chomp
 end

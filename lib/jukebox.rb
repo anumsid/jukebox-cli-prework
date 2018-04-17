@@ -68,7 +68,10 @@ def run(my_songs)
         list(songs)
         puts "Please enter a command:"
         response = gets.chomp
-
+      when "play"
+        play(songs)
+        puts "Please enter a command:"
+        response = gets.chomp
     end
   end
 end

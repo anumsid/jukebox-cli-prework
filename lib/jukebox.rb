@@ -62,7 +62,7 @@ def run(my_songs)
     case response
       when "help"
         help
-      puts
+        puts "Please enter a command:"
     end
   end
 end

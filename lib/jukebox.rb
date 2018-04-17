@@ -63,6 +63,12 @@ def run(my_songs)
       when "help"
         help
         puts "Please enter a command:"
+        response = gets.chomp
+      when "list"
+        list(songs)
+        puts "Please enter a command:"
+        response = gets.chomp
+
     end
   end
 end
